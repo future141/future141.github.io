@@ -12,10 +12,7 @@
 - 下载Armbian并安装 (https://www.armbian.com/nanopi-r4s/).
 - 下载rootfs openwrt-rockchip-armv8-rootfs.tar.gz (https://www.openwrt.cc/releases/targets/rockchip/armv8).
 
-  cd
-  mkdir openwrt_tmp
-  cd openwrt_tmp
-  
+    cd
   
 
 ## Welcome to GitHub Pages
