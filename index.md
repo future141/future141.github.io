@@ -34,6 +34,15 @@
     
     docker build -t openwrt_r4s . 
 
+查看生成镜像
+
+    REPOSITORY    TAG       IMAGE ID       CREATED       SIZE
+    openwrt_r4s   latest    c3074bfca0a6   2 weeks ago   760MB
+
+接下来就是进一步配置docker镜像
+
+
+
 ## Welcome to GitHub Pages
 You can use the [editor on GitHub](https://github.com/future141/future141.github.io/edit/main/index.md) to maintain and previeCancel changesw the content for your website in Markdown files.
 
