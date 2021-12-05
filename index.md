@@ -11,8 +11,11 @@
 ## 安装系统
 下载Armbian并安装 (https://www.armbian.com/nanopi-r4s/).
 下载rootfs openwrt-rockchip-armv8-rootfs.tar.gz (https://www.openwrt.cc/releases/targets/rockchip/armv8).
-
-    cd
+  cd
+  mkdir openwrt_tmp
+  cd openwrt_tmp
+  
+  
 
 ## Welcome to GitHub Pages
 You can use the [editor on GitHub](https://github.com/future141/future141.github.io/edit/main/index.md) to maintain and previeCancel changesw the content for your website in Markdown files.
