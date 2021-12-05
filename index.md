@@ -4,6 +4,8 @@
 nanopi-r4s, Armbian 21.08.6 Focal with Linux 5.10.63-rockchip64, OpenWrt R21.11.11 (2021-11-14) / LuCI Master (git-21.280.14233-9b796b1) 
 ### 适用范围
 运行linux的x86/x64/ARM的软路由
+## 安装系统
+下载Armbian并安装 (https://www.armbian.com/nanopi-r4s/).
 
 
 ## Welcome to GitHub Pages
