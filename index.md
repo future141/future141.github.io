@@ -9,8 +9,9 @@
 - 运行linux的x86/x64/ARM的软路由
 
 ## 安装系统
-下载Armbian并安装 (https://www.armbian.com/nanopi-r4s/).  
-下载rootfs openwrt-rockchip-armv8-rootfs.tar.gz (https://www.openwrt.cc/releases/targets/rockchip/armv8).  
+下载Armbian并烧录 (https://www.armbian.com/nanopi-r4s/).  
+下载docker并安装 (https://docs.docker.com/engine/install/ubuntu/).  
+下载rootfs,本教程使用openwrt-rockchip-armv8-rootfs.tar.gz,根据各自需要更换 (https://www.openwrt.cc/releases/targets/rockchip/armv8).  
 
     cd
     mkdir openwrt_tmp
@@ -20,9 +21,19 @@
     
 建立dockerfile并生成镜像  
 
+    sudo vim dockerfile
+
+写入内容
+
+    FROM scratch 
+    ADD openwrt-rockchip-armv8-rootfs.tar.gz / 
+    EXPOSE 22 80 443 
+    ENTRYPOINT ["/sbin/init"]
+
+生成镜像
     
-    
-    
+    docker build -t openwrt_r4s . 
+
 ## Welcome to GitHub Pages
 You can use the [editor on GitHub](https://github.com/future141/future141.github.io/edit/main/index.md) to maintain and previeCancel changesw the content for your website in Markdown files.
 
