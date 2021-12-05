@@ -11,7 +11,7 @@
 ## 安装系统
 下载Armbian并烧录 (https://www.armbian.com/nanopi-r4s/).  
 下载docker并安装 (https://docs.docker.com/engine/install/ubuntu/).  
-下载rootfs,本教程使用openwrt-rockchip-armv8-rootfs.tar.gz,根据各自需要更换 (https://www.openwrt.cc/releases/targets/rockchip/armv8).  
+下载rootfs, 本教程使用openwrt-rockchip-armv8-rootfs.tar.gz, 根据各自需要更换 (https://www.openwrt.cc/releases/targets/rockchip/armv8).  
 
     cd
     mkdir openwrt_tmp
