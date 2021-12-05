@@ -6,6 +6,7 @@ nanopi-r4s, Armbian 21.08.6 Focal with Linux 5.10.63-rockchip64, OpenWrt R21.11.
 运行linux的x86/x64/ARM的软路由
 ## 安装系统
 下载Armbian并安装 (https://www.armbian.com/nanopi-r4s/).
+下载rootfs openwrt-rockchip-armv8-rootfs.tar.gz (https://www.openwrt.cc/releases/targets/rockchip/armv8).
 
 
 ## Welcome to GitHub Pages
