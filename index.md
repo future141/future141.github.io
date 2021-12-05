@@ -1,7 +1,9 @@
 # docker实现多网口openwrt软路由
 
 ### 测试环境
-nanopi-r4s, Armbian 21.08.6 Focal with Linux 5.10.63-rockchip64, OpenWrt R21.11.11 (2021-11-14) / LuCI Master (git-21.280.14233-9b796b1) 
+- nanopi-r4s, 
+- Armbian 21.08.6 Focal with Linux 5.10.63-rockchip64, 
+- OpenWrt R21.11.11 (2021-11-14) / LuCI Master (git-21.280.14233-9b796b1) 
 ### 适用范围
 运行linux的x86/x64/ARM的软路由
 ## 安装系统
